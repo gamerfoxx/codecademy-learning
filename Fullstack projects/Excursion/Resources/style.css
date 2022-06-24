@@ -1,0 +1,38 @@
+/* Main Styles */
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+/* Header Styles */
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+}
+.link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aquamarine;
+  font-size: 16px;
+}
+
+/* Main Styles */
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 42px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 21px;
+  color: gray;
+}
+
+/* Footer Styles */
+footer {
+  text-align: right;
+}

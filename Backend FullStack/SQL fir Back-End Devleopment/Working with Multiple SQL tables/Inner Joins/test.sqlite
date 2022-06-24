@@ -1,0 +1,10 @@
+SELECT COUNT(id) AS 'id'
+FROM newspaper;
+
+SELECT COUNT(id) AS 'id'
+FROM online;
+
+SELECT COUNT(*) AS 'fuckers'
+FROM newspaper 
+JOIN online 
+  ON newspaper.id = online.id;

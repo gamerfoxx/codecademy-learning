@@ -1,0 +1,28 @@
+Now that you have a good base of understanding of indexes let us dive deeper to explore in more detail how they work and how you can use them to improve the systems you work on.
+
+In the previous lesson you learned about:
+
+    What an index is and how they function.
+    How to build an index.
+    How to drop an index.
+    Multicolumn indexes used to expand the power of your indexes.
+    Some of the benefits and burdens of indexes:
+        Increase in speed of searches/filtering
+        Increase in storage space
+        Increase in runtime for Insert/Update/Delete on impacted indexes.
+
+In this lesson you will learn about:
+
+    How to build a partial index
+    How to improve the speed of ordering data
+    The Relationship between:
+        Primary keys and unique indexes
+        Unique constraints and unique indexes.
+    How clustered and non-clustered indexes work.
+    Index-Only Scans
+    Combining indexes vs multicolumn indexes
+    Indexes based on expressions
+
+Like in the previous lesson, we will at times be working with larger databases so some of your execution times on the site might be longer than you have experienced. Please be patient.
+
+We will be working with the same customers table we did in the first lesson. As a refresher let us take a look at it again.

@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[462],{D4LY:function(n,e,t){"use strict";t.r(e),t.d(e,"ImageContainer",(function(){return ImageContainer}));var _=t("q1tI"),r=t.n(_),a=t("OOdZ");const ImageContainer=({config:n})=>r.a.createElement(a.a,{presenter:n});e.default=ImageContainer}}]);
+//# sourceMappingURL=LayoutComponents-Image~c0c48179.145aa8070b826c193fd1.chunk.js.map

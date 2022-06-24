@@ -1,0 +1,64 @@
+html {
+  font-size: 16px;
+  background-color: black;
+}
+
+ul {
+  background-color: #ff80c5;
+  display: grid;
+  text-align: center;
+}
+
+ul li a {
+  color: black;
+  line-height: 2;
+}
+main {
+  display: grid;
+  grid-template: 400px 1fr 75px 1fr 200px / 1fr;
+}
+
+.title,
+.slogan,
+.description {
+  padding: 15px;
+}
+
+h1.title {
+  background-color: #80feff;
+  margin: 40px 0;
+  font-size: 3rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h2 {
+  color: #ffd780;
+  font-size: 2rem;
+}
+
+p {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.quote {
+  background-color: #ff80c5;
+}
+
+@media only screen and (min-width: 1048px) {
+  .img-container {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+}

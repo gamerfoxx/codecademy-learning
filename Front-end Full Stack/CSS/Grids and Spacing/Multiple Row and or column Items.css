@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  gap: 5px;
+}
+
+.a {
+  grid-row-start: 5;
+  grid-row-end: 7;
+  /* indicates where the item will both start and end */
+  grid-row: 5 / 7;
+  /* Short hand to have this span multiple rows */
+}
+
+.b {
+  grid-row: 2 / span 3;
+  grid-column: 2 / span 6;
+}
+/* Sets the start position, and how many rows/columns this should span across */
+
+.c {
+  grid-area: 6 / 8 / span 3 / span 1;
+}
+/* Sets the row start, then column start, then row end, then finally the column end */
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}

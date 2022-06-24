@@ -1,0 +1,21 @@
+<?php
+class Beverage {
+  private $temperature, $color;
+  // property can be manipulated and accessed by member methods, but since we never 
+  //want the property to be accessed directly outside of the class, we set the property as private
+  protected $opacity;
+//   This enables child classes to access these properties 
+// and methods internally while still preventing them from being accessed externally:
+  function __construct($temperature, $color) {
+    $this->temperature = $temperature;
+    $this->color = $color;
+  }
+  function getInfo() {
+    return "This beverage is $this->temperature and $this->color.";
+  }
+}
+class Milk extends Beverage {
+  function setOpacity($opacity) {
+    $this->opacity = $opacity;
+  }
+}

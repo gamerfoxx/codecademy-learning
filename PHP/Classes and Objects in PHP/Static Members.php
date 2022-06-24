@@ -1,0 +1,13 @@
+<?php
+class AdamsUtils {
+  public static $the_answer = 42;
+  //the stactic keyword creates a fixed variable
+  public static function addTowel($string) {
+    return $string . " and a towel.";
+  }
+}
+
+$items = "I brought apples";
+
+echo AdamsUtils::$the_answer;
+echo AdamsUtils::addTowel($items);

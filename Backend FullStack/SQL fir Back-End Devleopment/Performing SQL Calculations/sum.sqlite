@@ -1,0 +1,3 @@
+SELECT SUM(downloads)
+FROM fake_apps;
+--totals the downloads feild

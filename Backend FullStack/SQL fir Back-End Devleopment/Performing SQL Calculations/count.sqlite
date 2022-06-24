@@ -1,0 +1,4 @@
+SELECT COUNT(*) 
+FROM fake_apps
+WHERE price = 0;
+--counts the number of apps with a price equal to 0

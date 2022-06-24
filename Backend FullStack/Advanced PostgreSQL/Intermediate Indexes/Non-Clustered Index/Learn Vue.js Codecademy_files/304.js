@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[304],{cQ3R:function(e,t,n){"use strict";n.d(t,"a",(function(){return PageMeta}));var c=n("q1tI"),a=n.n(c),_=n("qhky");const PageMeta=({title:e,description:t})=>{const n=`${e} | Codecademy`;return a.a.createElement(_.a,null,e&&a.a.createElement("title",null,n),t&&a.a.createElement("meta",{name:"description",content:t}))}}}]);
+//# sourceMappingURL=304.55225c46bb7ae35acc71.chunk.js.map

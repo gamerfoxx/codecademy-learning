@@ -1,0 +1,4 @@
+SELECT * 
+FROM movies
+WHERE name LIKE 'The %';
+--Matches everything that begins with "The " can be used on both sides

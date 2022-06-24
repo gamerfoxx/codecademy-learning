@@ -1,0 +1,10 @@
+SELECT *
+FROM orders 
+JOIN subscriptions 
+  ON orders.subscription_id = subscriptions.subscription_id;
+--Merges tables using the subscription_id feild as reference
+SELECT *
+FROM orders
+JOIN subscriptions
+  ON orders.subscription_id = subscriptions.subscription_id
+WHERE subscriptions.description = 'Fashion Magazine'

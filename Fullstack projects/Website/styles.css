@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0 10%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  border: 2px solid #a2a2a6;
+  padding: 10px;
+  margin: 10px auto;
+  clear: left;
+}
+
+/* Color Area Styles */
+.color-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.color-container h2 {
+  width: 100%;
+  clear: both;
+}
+
+.color-text {
+  text-align: center;
+}
+
+.blue,
+.pink,
+.green,
+.beige {
+  width: 31%;
+  margin: 10px;
+}
+.blue {
+  background: #2d5dcc;
+  color: white;
+}
+.pink {
+  background: #d957d9;
+}
+.green {
+  background: #4fe0b0;
+}
+.beige {
+  background: #efd9ca;
+}
+/* Font container */
+.font-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.font-container div {
+  width: 50%;
+}
+
+.font-container h2 {
+  width: 100%;
+}
+
+.source {
+  font-family: "Source Code Pro", monospace;
+}
+
+.nunito {
+  font-family: "Nunito Sans";
+}
+
+.poppins {
+  font-family: Poppins;
+}
+
+.bold {
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+  font-size: 20px;
+}
+.italic {
+  font-style: italic;
+}
+
+/* Text Container */
+
+.text-container h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Nunito Sans";
+}
+
+.text-container h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Poppins;
+  display: block;
+}
+
+.text-container p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Poppins;
+}

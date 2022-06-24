@@ -1,0 +1,133 @@
+/* HTML Styles */
+html {
+  max-width: 1200px;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  min-height: 100vh;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* END HTML Styles */
+
+/* Header Styles */
+header {
+  display: grid;
+  grid-template: 100px / 2fr 1fr;
+}
+
+h1.title {
+  text-align: left;
+}
+
+.navbar ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+/* End Header Styles */
+/* Main Styles */
+main {
+  display: grid;
+  grid-template: 400px 400px 1fr / repeat(3, 1fr);
+}
+img {
+  max-width: 100%;
+}
+/* banner */
+.banner {
+  grid-area: 1 / 1 / span 1 / span 3;
+  background-image: url("./images/path.jpg");
+  background-position: center;
+  margin: 10px 5px;
+  display: grid;
+  grid-template: 1fr 40px / 1fr;
+  align-items: center;
+}
+.banner .banner-text {
+  background: rgba(255, 255, 255, 0.6);
+  height: 50px;
+  grid-area: 2 / 1 / span 1 / span 1;
+  justify-content: safe;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* About Me */
+.row {
+  grid-area: 2 / 1 / span 1 / span 3;
+  display: inline-grid;
+  grid-template: 1fr / repeat(3, 1fr);
+}
+.row .about-me {
+  grid-area: 1 / 1 / span 1 / span 2;
+  text-align: left;
+}
+
+.row .img {
+  grid-area: 1 / 3 / span 1 / span 1;
+  background-image: url("./images/me.jpg");
+  background-position: top;
+}
+/* Languages */
+.languages {
+  grid-area: 3 / 1 / span 1 / span 3;
+  display: inline-grid;
+  grid-template: 1fr / repeat(7, 1fr);
+}
+.languages div p:first-of-type {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.languages i {
+  font-size: 4rem;
+  clear: both;
+}
+
+/* End Main Styles */
+
+/* Start Footer */
+
+footer i {
+  font-size: 2rem;
+}
+.fa-linkedin {
+  color: #0e76a8;
+}
+/* End footer */
+/* mobile styles */
+
+@media only screen and (max-width: 720px) {
+  .row {
+    display: block;
+    width: 100%;
+  }
+  .row .about-me {
+    display: block;
+    width: 100%;
+  }
+
+  .row .img {
+    display: none;
+  }
+
+  .languages {
+    grid-area: 3 / 1 / span 1 / span 3;
+    display: inline-grid;
+    grid-template: 1fr 1fr / repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .languages div p:first-of-type {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .languages i {
+    font-size: 4rem;
+    clear: both;
+  }
+}

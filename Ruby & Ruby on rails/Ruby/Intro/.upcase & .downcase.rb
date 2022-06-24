@@ -1,0 +1,1 @@
+puts "flare".upcase.downcase

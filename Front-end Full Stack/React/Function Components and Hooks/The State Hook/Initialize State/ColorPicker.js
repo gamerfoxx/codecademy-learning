@@ -1,0 +1,23 @@
+import React, { useState } from 'react';
+
+const colorNames = ['Aquamarine', 'BlueViolet', 'Chartreuse', 'CornflowerBlue', 'Thistle', 'SpringGreen', 'SaddleBrown', 'PapayaWhip', 'MistyRose'];
+
+export default function ColorPicker() {
+  const [color, setColor] = useState();
+
+ const divStyle = {backgroundColor: color ? color : "Tomato"};
+
+  return (
+    <div style={divStyle}>
+      <p>Selected color: {color}</p>
+      {colorNames.map((colorName)=>(
+        <button 
+          onClick={() => setColor(colorName)} 
+          key={colorName}>
+       	     {colorName}
+      	</button>
+      ))}
+    </div>
+  );
+}
+

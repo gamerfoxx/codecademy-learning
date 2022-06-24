@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[595],{quCL:function(e,a,r){"use strict";r.d(a,"a",(function(){return TermsOfService}));var t=r("uQrA"),c=r("owCg"),n=r("q1tI"),o=r.n(n);const TermsOfService=({className:e,terms:a="/terms"})=>o.a.createElement(t.a,{as:"small",className:e,fontSize:14},"By signing up for Codecademy, you agree to Codecademy's"," ",o.a.createElement(c.a,{href:a},"Terms of Service")," &"," ",o.a.createElement(c.a,{href:"/policy"},"Privacy Policy"),".")}}]);
+//# sourceMappingURL=595.c78577d3be05ba203fae.chunk.js.map

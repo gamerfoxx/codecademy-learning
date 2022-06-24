@@ -1,0 +1,64 @@
+INSERT INTO book VALUES (
+  'Learn PostgreSQL',
+  '0-9673-4537-5',
+  100,
+  2.99,
+  'Dive into Postgres for Beginners',
+  'Codecademy Publishing'
+);
+
+INSERT INTO book VALUES (
+  'Postgres Made Easy',
+  '0-3414-4116-3',
+  255,
+  5.99,
+  'Learn Postgres the Easy Way',
+  'Codecademy Press'
+);
+
+INSERT INTO chapter VALUES (
+  1,
+  '0-9673-4537-5',
+  1,
+  'Chapter 1'
+);
+
+INSERT INTO chapter VALUES (
+  2,
+  '0-3414-4116-3',
+  1,
+  'Chapter 1'
+);
+
+INSERT INTO page VALUES (
+  1,
+  1,
+  'Chapter 1 Page 1',
+  'Page 1 Header',
+  'Page 1 Footer'
+);
+
+INSERT INTO page VALUES (
+  2,
+  1,
+  'Chapter 1 Page 2',
+  'Page 2 Header',
+  'Page 2 Footer'
+);
+
+INSERT INTO page VALUES (
+  3,
+  2,
+  'Chapter 1 Page 1',
+  'Page 1 Header',
+  'Page 1 Footer'
+);
+
+INSERT INTO page VALUES (
+  4,
+  2,
+  'Chapter 1 Page 2',
+  'Page 2 Header',
+  'Page 2 Footer'
+);
+

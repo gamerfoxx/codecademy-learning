@@ -1,0 +1,4 @@
+SELECT * 
+FROM movies
+WHERE name LIKE 'Se_en';
+-- matches Seven, and Se7en

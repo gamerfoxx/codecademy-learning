@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[165],{OOdZ:function(e,t,n){"use strict";n.d(t,"a",(function(){return Image}));var i=n("yrBZ"),r=n("JJ6o"),a=n("630U"),_=n("q1tI"),o=n.n(_);const Image=({presenter:e})=>o.a.createElement(a.b,{mode:"light",height:"100%"},o.a.createElement(i.b,{center:!0,height:"inherit",width:"100%",mx:"auto",position:"relative"},o.a.createElement(r.a,{src:e.image_url,alt:e.alt_text})))}}]);
+//# sourceMappingURL=165.a20fa9523d3d3afa919b.chunk.js.map

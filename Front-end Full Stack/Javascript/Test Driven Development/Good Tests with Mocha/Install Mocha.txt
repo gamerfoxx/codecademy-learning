@@ -1,0 +1,19 @@
+$ npm init
+$ npm install mocha -D
+
+
+    npm install tells npm to install a package from the internet and any other packages it depends on
+    mocha is the package you want to download
+    -D signifies that this package is a development dependency and will show up under the devDependecies section in package.json. This means that the package will only be included in development mode and will not be included in the production bundle.
+
+
+Ways to run mocha after it's installed
+The first (and more tedious) method is to call it directly from node_modules:
+
+$ ./node_modules/mocha/bin/mocha
+
+The second (and recommended) method is to add a script to package.json. In the scripts object in package.json, set the value of "test" to mocha. It should look like this:
+
+"scripts": {
+  "test": "mocha"
+}

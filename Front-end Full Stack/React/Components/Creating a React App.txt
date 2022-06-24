@@ -1,0 +1,14 @@
+$ sudo npm install -g npm@latest
+
+If you’ve previously installed create-react-app globally via npm install -g create-react-app, it is recommended that you uninstall the package first. In your terminal run these commands:
+
+$ npm uninstall -g create-react-app
+$ npx create-react-app myfirstreactapp
+
+If you’ve never installed create-react-app before, you can simply run this command:
+
+$ npx create-react-app myfirstreactapp
+
+If you have Yarn installed, create-react-app will use it by default to create new projects. If you would prefer to use npm, you can append --use-npm to the creation command. It will look like this:
+
+$ npx create-react-app myfirstreactapp --use-npm

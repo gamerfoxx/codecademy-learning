@@ -1,0 +1,4 @@
+ go doc time.now
+ go doc fmt.Println
+
+ both will provide help docs when pasted into the cmd terminal

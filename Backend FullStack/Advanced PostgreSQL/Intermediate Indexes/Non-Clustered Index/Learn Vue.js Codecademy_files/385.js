@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[385],{Tqhk:function(n,_,t){"use strict";t.d(_,"a",(function(){return LockBodyScroll}));var e=t("q1tI"),r=t.n(e),a=t("5QrP");const LockBodyScroll=n=>(Object(a.a)(),r.a.createElement(r.a.Fragment,null,n.children))}}]);
+//# sourceMappingURL=385.db700d3d22cb4178528e.chunk.js.map
